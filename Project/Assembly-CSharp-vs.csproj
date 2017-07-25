@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;UNITY_IPHONE;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;UNITY_IPHONE_API;UNITY_IOS;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\EasyFont\Code\EasyFontTextMesh.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Adapter\SMGroupedSceneConfigurationAdapter.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Adapter\SMIConfigurationAdapter.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Adapter\SMSceneConfigurationAdapter.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMGroupStatus.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMGroupedSceneConfiguration.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMILevelProgress.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMLevelProgress.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMLevelStatus.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMSceneConfiguration.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMSceneConfigurationBase.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMSceneConfigurationLoader.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMSceneManager.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMSerializableLevelProgress.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMUnmodifiableLevelProgress.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\SMWorkflowActionType.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\Pro\SMCartoonTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\Pro\SMCinemaTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\Pro\SMNewspaperTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\Pro\SMNinjaTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\Pro\SMPixelateTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\Pro\SMPostRenderTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\Pro\SMPostRenderTransitionWithMobileShader.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\Pro\SMTetrisTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\Pro\SMTilesTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\SMBlindsTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\SMFadeTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\SMPlainTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\SMRealTimeHelper.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\SMTransition.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\SMTransitionState.cs" />
+     <Compile Include="Assets\SceneManager\Runtime\Transition\SMTransitionUtils.cs" />
+     <Compile Include="Assets\SceneManagerDemo\Scripts\SMDemoCurrentLevel.cs" />
+     <Compile Include="Assets\SceneManagerDemo\Scripts\SMDemoCutscene.cs" />
+     <Compile Include="Assets\SceneManagerDemo\Scripts\SMDemoIntro.cs" />
+     <Compile Include="Assets\SceneManagerDemo\Scripts\SMDemoLevel.cs" />
+     <Compile Include="Assets\SceneManagerDemo\Scripts\SMDemoLevelSelector.cs" />
+     <Compile Include="Assets\SceneManagerDemo\Scripts\SMDemoMainMenu.cs" />
+     <Compile Include="Assets\SceneManagerDemo\Scripts\SMGameEnvironment.cs" />
+     <Compile Include="Assets\Scripts\AdMobIntegration.cs" />
+     <Compile Include="Assets\Scripts\BalloonControl.cs" />
+     <Compile Include="Assets\Scripts\BalloonSpawnManager.cs" />
+     <Compile Include="Assets\Scripts\DificultyControl.cs" />
+     <Compile Include="Assets\Scripts\GUIManagerGameOver.cs" />
+     <Compile Include="Assets\Scripts\GUIManagerStart.cs" />
+     <Compile Include="Assets\Scripts\GUISupport.cs" />
+     <Compile Include="Assets\Scripts\GameGUI.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\LeaderboardIntegration.cs" />
+     <Compile Include="Assets\Scripts\PlayerPrefsX.cs" />
+     <Compile Include="Assets\Scripts\SpikeControl.cs" />
+     <None Include="Assets\SceneManagerDemo\README.txt" />
+     <None Include="Assets\SceneManager\Resources\Shader\SMTilesEffect.shader" />
+     <None Include="Assets\SceneManager\Resources\Shader\SMBackBufferCopyEffect.shader" />
+     <None Include="Assets\SceneManager\Resources\Shader\SMPixelateEffect.shader" />
+     <None Include="Assets\SceneManager\Resources\Shader\SMTilesEffectMobile.shader" />
+     <None Include="Assets\EasyFont\Shaders\EasyFontDetail.shader" />
+     <None Include="Assets\SceneManager\CHANGES.txt" />
+     <None Include="Assets\SceneManager\Resources\Shader\SMCartoonEffect.shader" />
+     <None Include="Assets\SceneManager\Resources\Shader\SMCinemaEffect.shader" />
+     <None Include="Assets\SceneManager\README.txt" />
+     <None Include="Assets\SceneManager\Resources\Shader\SMBackBufferCopyEffectMobile.shader" />
+     <None Include="Assets\SceneManager\Resources\Shader\SMPixelateEffectMobile.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="P31RestKit">
+ <HintPath>/Users/danielmarques/Projects/SOS Balloon/Project/Assets/Plugins/P31RestKit.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{EB8AA23C-2655-E22B-2EBB-05697394EDB3}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

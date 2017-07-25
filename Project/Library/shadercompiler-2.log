@@ -1,0 +1,38 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Pipe name: \\.\pipe\UnityShaderCompiler-2--1335148544
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=9 type=0 insize=759 outsize=716 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=759 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=925 outsize=1044 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=925 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=891 outsize=959 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=891 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=990 outsize=1192 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=990 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=759 outsize=716 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=759 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=904 outsize=1162 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=904 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=990 outsize=1192 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=990 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1413 outsize=1531 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=1413 outsize=7 kw= ok=1
+End of pipe
+
+Quitting shader compiler process
